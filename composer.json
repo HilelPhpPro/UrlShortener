@@ -1,0 +1,30 @@
+{
+    "name": "hillel-php/url-shortener",
+    "description": "Library for url convert to short code",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Maystrenko",
+            "email": "ashterix69@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "type" : "library",
+    "homepage": "https://github.com/HilelPhpPro/UrlShortener",
+    "require" : {
+        "php": ">=8.1",
+        "guzzlehttp/guzzle": "7.*",
+        "ext-mbstring": "*"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "HillelPhp\\UrlShortener\\": "src/"
+        }
+    },
+    "extra" : {
+    },
+    "scripts": {
+        "auto-scripts": {
+        }
+    }
+}
